@@ -1,0 +1,12 @@
+﻿Traffic handling
+
+Too many linq queries where result does not change after initialization
+
+If first corner is 22.5 and out with speed 9, then 45 max speed is 4.5 so this wont work
+
+Slowing down in straights is now: as fast as possible and then count when have to drop to 0
+
+Cornering and exit speed calculations (trying to exit even if next piece is same corner) are not really working
+
+Corner InPieceDistance calculations doesn't work correctly (sometimes gives too long traveldistance)
+	This might actually be case with pieces that have a switch?
